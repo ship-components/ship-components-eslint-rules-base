@@ -1,5 +1,5 @@
 {
-  "name": "ship-components-eslint-rules-base",
+  "name": "eslint-config-ship-components-base",
   "version": "1.0.0",
   "description": "JavaScript Eslint Rules for SHIP",
   "main": "index.js",

@@ -1,0 +1,46 @@
+{
+  "name": "eslint-config-ship-components-base",
+  "version": "1.0.0",
+  "description": "JavaScript Eslint Rules for SHIP Back-End Code",
+  "main": "index.js",
+  "scripts": {
+    "prelint": "editorconfig-tools check * rules/* test/*",
+    "lint": "eslint .",
+    "tests-only": "node ./test/test-*.js",
+    "pretest": "npm run --silent lint",
+    "test": "npm run --silent tests-only",
+    "travis": "npm install -g trevor && trevor"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ship-components/ship-components-eslint-rules-base.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "javascript",
+    "styleguide"
+  ],
+  "author": "Sepand Assadi <sepand.assadi@sony.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ship-components/ship-components-eslint-rules-base/issues"
+  },
+  "homepage": "https://github.com/ship-components/ship-components-eslint-rules-base#readme",
+  "peerDependencies": {
+    "eslint": ">=3.0.0"
+  },
+  "devDependencies": {
+    "editorconfig-tools": "^0.1.1",
+    "eslint": "^3.17.1",
+    "eslint-find-rules": "^1.14.3",
+    "eslint-plugin-import": "^2.2.0",
+    "in-publish": "^2.0.0",
+    "safe-publish-latest": "^1.1.1",
+    "tape": "^4.6.3",
+    "tape-runner": "^0.3.0"
+  },
+  "engines": {
+    "node": ">= 4"
+  }
+}

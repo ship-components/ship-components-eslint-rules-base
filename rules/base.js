@@ -1,18 +1,10 @@
 module.exports = {
-  "parser": "babel-eslint",
-
   "parserOptions": {
-    "ecmaVersion": 6,
-    "sourceType": "module",
-
-    "ecmaFeatures": {
-      "modules": true
-    }
+    "sourceType": "module" // set to "script" (default) or "module" if your code is in ECMAScript modules.
   },
 
   "env": {
-    "browser": true,      // browser global variables.
-    "node": true,         // Node.js global variables and Node.js-specific rules.
+    "node": true         // Node.js global variables and Node.js-specific rules.
   },
 
   "rules": {

@@ -45,6 +45,7 @@ Add `"extends": "ship-components-base",` to your .eslintrc
 4. Add to your `.eslintrc` like normal
 
 # History
+* 1.1.0 - Switched to spaces
 * 1.0.0 - Initial commit
 
 # License
